@@ -1,3 +1,8 @@
+# Finest Night
+
+A fork of the tokyonight theme for Neovim tailored for my calmer color scheme.
+See the original README below:
+
 # 🏙 Tokyo Night
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
