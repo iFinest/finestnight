@@ -1,0 +1,28 @@
+core:
+  - all:
+      - changed-files:
+          - any-glob-to-any-file: "lua/finestnight/**"
+          - all-globs-to-all-files:
+              - "!lua/finestnight/groups/**"
+              - "!lua/finestnight/colors/**"
+              - "!lua/finestnight/extra/**"
+
+extras:
+  - changed-files:
+      - any-glob-to-any-file: "lua/finestnight/extra/**"
+
+groups:
+  - changed-files:
+      - any-glob-to-any-file: "lua/finestnight/groups/**"
+
+base:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "lua/finestnight/groups/base.lua"
+          - "lua/finestnight/groups/kinds.lua"
+          - "lua/finestnight/groups/treesitter.lua"
+          - "lua/finestnight/groups/semantic_tokens.lua"
+
+colors:
+  - changed-files:
+      - any-glob-to-any-file: "lua/finestnight/colors/**"
